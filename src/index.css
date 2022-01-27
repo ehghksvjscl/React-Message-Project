@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Gaegu:wght@300;400;700&family=Noto+Sans+KR:wght@400;900&display=swap');
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Gaegu", "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans",
+    "Droid Sans", "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow: hidden;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Gaegu", "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol";
+  font-size: 14px;
+  line-height: 1.5;
+  color: #24292e;
+  background-color: #fff;
+}
+
+.app {
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: "Gaegu", "Noto Sans KR";
+  list-style: none;
+}
+
+input.error {
+  border-color: red;
+}
+
+.register-input-feedback {
+  color: red;
+  font-size: 10px;
+  margin-top: -8px;
+}
+
+.input-feedback {
+  color: red;
+  height: 5px;
+  margin-top: -8px;
+}
+
+#user_id, #password, #confirmPassword, #name{
+  height: 35px;
+  border: 3px solid #DAB967;
+  border-radius: 50px;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.10) 0px 6px 6px;
+}
+
+.login_lable, .password_lable,
+.name_lable {
+  font-size:24px;
+  font-weight: bold;
+}

@@ -1,5 +1,5 @@
 FROM node:12.2.0-alpine     
-"dohwan 입니다sdfasdfsfsdfsdf"
+"dohwan 입니다sdfasdfsfsdfsdfasdfsadfsdafsdfsfs"
 RUN mkdir /app
 WORKDIR /app
 ENV PATH /app/node_modules/.bin:$PATH

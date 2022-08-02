@@ -1,5 +1,5 @@
 FROM node:12.2.0-alpine     
-assdasd
+"dohwan 입니다"
 RUN mkdir /app
 WORKDIR /app
 ENV PATH /app/node_modules/.bin:$PATH
